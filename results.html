@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Results</h2>
+
+<p>These are the results we pulled.</p>
+
+<h4>Here are the first 5 links on the page:</h4>
+
+<div class ="">
+    <ul class="">
+        <!-- For each loop... for each link in links -->
+        <li>
+            <a href="{{ info }}{{ links[1] }}">
+            {{ links[1] }}</a> <br/>
+        </li>
+        <li>
+            <a href="{{ info }}{{ links[2] }}">
+            {{ links[2] }}</a> <br/>
+        </li>
+        <li>
+            <a href="{{ info }}{{ links[3] }}">
+            {{ links[3] }}</a> <br/>
+        </li>
+         <li>
+            <a href="{{ info }}{{ links[4] }}">
+            {{ links[4] }}</a> <br/>
+        </li>
+        <li>
+            <a href="{{ info }}{{ links[5] }}">
+            {{ links[5] }}</a> <br/>
+        </li>
+    </ul>
+</div>
+
+<div>
+    <h4>Here is the description of the page:</h4>
+    <p>{{ content }}</p>
+</div>
+</body>
+</html>
